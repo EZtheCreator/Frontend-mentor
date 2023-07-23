@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.5;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cart-box {
+  width: 45rem;
+  height: auto;
+  margin: 0 auto;
+  border: none;
+  box-shadow: 0rem 0.1rem 2rem 0.6rem hsla(223, 47%, 23%, 0.104);
+  border-radius: 16px;
+  margin-top: 7%;
+}
+
+.cart-content {
+  padding-inline: 4.5rem;
+}
+
+.svg-img {
+  border-radius: 16px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-bottom: 1.9rem;
+}
+
+.text-box {
+  text-align: center;
+  margin-bottom: 2.4rem;
+}
+
+.header-cart {
+  color: hsl(223, 47%, 23%);
+  font-size: 2.3rem;
+  font-weight: 900;
+  margin-bottom: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.paragraf-cart {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.plan-overview {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 9px;
+  padding-inline: 1.5rem;
+  height: 8rem;
+  margin-bottom: 2.9rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+}
+
+.svg-planName-planPrice {
+  display: flex;
+  gap: 2rem;
+}
+
+.plan-name {
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.plan-price {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.Cancel {
+  font-size: 1.4rem;
+}
+
+.button-cart-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.proceed-payment,
+.proceed-payment:visited {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+
+  margin-bottom: 2.6rem;
+
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0rem 0.65rem 2.4rem 1rem hsla(245, 75%, 52%, 0.256);
+  border: none;
+  border-radius: 9px;
+  padding: 1.6rem;
+
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.proceed-payment:hover,
+.proceed-payment:active {
+  background-color: hsl(265, 50%, 50%);
+  box-shadow: 0rem 0.65rem 2.4rem 1rem hsla(265, 64%, 56%, 0.355);
+}
+
+.cancel-order-carts:link,
+.cancel-order-carts:visited {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.4rem;
+  text-decoration: none;
+  margin-bottom: 3.4rem;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+.cancel-order-carts:hover,
+.cancel-order-carts:active {
+  color: hsl(223, 47%, 23%);
+  font-weight: 500;
+}
