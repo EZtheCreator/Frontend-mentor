@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.resolt-pop-up-box {
+  width: 80rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 19px;
+  box-shadow: 0rem 2rem 10rem 0.1rem #00000050;
+}
+
+.right-side {
+  background-image: linear-gradient(to top, #2e2be9ec, #7957ff);
+  border-radius: 19px;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 4.2rem; */
+
+  align-items: center;
+}
+
+.header-right-side {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: hsla(222, 100%, 96%, 0.569);
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.numbers-cicle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, #2220ad, hsla(241, 72%, 46%, 0));
+  margin-bottom: 4.2rem;
+}
+
+.numbnumbers-cicle-score {
+  font-size: 7rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.max-score {
+  font-size: 1.8rem;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.text-box-right-side {
+  padding-inline: 6.4rem;
+  text-align: center;
+  margin-bottom: 4.2rem;
+}
+
+.header-text-box {
+  font-size: 3.6rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.6rem;
+}
+
+.text-text-box-right-side {
+  font-size: 1.9rem;
+  color: hsla(0, 0%, 100%, 0.5);
+  margin-bottom: 2.4rem;
+}
+
+/* ********************** */
+
+.left-side {
+  padding-inline: 4.2rem;
+}
+
+.header-left-side {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: hsl(224, 30%, 27%);
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.score-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+  margin-bottom: 3.6rem;
+}
+
+/* Fix part */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.9rem;
+}
+
+.flex-small-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.score-center {
+  align-self: center;
+}
+
+/* row1 column-right  */
+
+.row1-reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+  border-radius: 9px;
+}
+
+.row1-header {
+  font-size: 1.6rem;
+  color: hsl(0, 100%, 67%);
+}
+
+.reaction-score {
+  font-size: 1.4rem;
+}
+
+/* row2 column-right */
+.row2-reaction {
+  background-color: hsla(39, 100%, 56%, 0.1);
+  border-radius: 9px;
+}
+
+.row2-header {
+  font-size: 1.6rem;
+  color: hsl(39, 100%, 56%);
+}
+
+/* row3 column-right */
+.row3-reaction {
+  background-color: hsla(166, 100%, 37%, 0.1);
+  border-radius: 9px;
+}
+
+.row3-header {
+  font-size: 1.6rem;
+  color: hsl(166, 100%, 37%);
+}
+
+/* row4 column-right */
+.row4-reaction {
+  background-color: hsla(234, 85%, 45%, 0.1);
+  border-radius: 9px;
+}
+
+.row4-header {
+  font-size: 1.6rem;
+  color: hsl(234, 85%, 45%);
+}
+
+.btn {
+  border: none;
+  border-radius: 50px;
+
+  font-size: 1.6rem;
+  font-weight: 700;
+  background-color: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  width: 100%;
+  padding: 1.8rem;
+}
